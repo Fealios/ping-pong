@@ -1,33 +1,50 @@
 body {
-  height: 100%;
+  /*height: 100%;*/
 }
 
 #header {
   padding-top: 110px;
-  background-color: tan;
+  background-color: #F5DEB3;
   width: 100%;
   height: 300px;
   text-align: center;
   vertical-align: middle;
-  border:solid;
-}
+  }
 
 #sidebar {
-  position: relative;
-  background-color: #B1DDA1;
-  float: left;
+  position: absolute;
+  background-color: #8FBC8E;
+  /*float: left;*/
   width: 500px;
+  }
+
+#sidebarContent {
   height: 100%;
-border:solid;
 }
 
 #content {
   padding-top: 20px;
-  background-color: lightgrey;
+  background-color: #E6E6E6;
   width: 100%;
   height: 100%;
 }
 
 #pingpong {
 margin-left: 530px;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+h4 {
+  font-weight: bold;
+}
+
+span {
+  font-weight: bold;
+}
+
+.btn-default {
+  background-color: #BEBEBE;
 }
