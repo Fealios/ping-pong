@@ -1,4 +1,5 @@
 function pingPong (num){
+  // numcheck(num);
   var input;
   var capture = [];
   for (i=1;i<=num;i++){
@@ -24,6 +25,7 @@ function eject (arr){
 $(document).ready(function(){
   $('#user').submit(function(event){
     event.preventDefault();
+    $('#output').text('');
     input = $('#input').val();
     console.log(input);
     pingPong(input);
