@@ -3,7 +3,7 @@ function pingPong (num){
   var capture = [];
   for (i=1;i<=num;i++){
     if(i % 15===0){
-      capture.push('pinppong');
+      capture.push('pingpong');
     } else if (i % 5 === 0){
       capture.push('pong');
     } else if (i % 3 === 0){

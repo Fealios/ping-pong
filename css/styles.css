@@ -11,12 +11,17 @@ body {
   vertical-align: middle;
   }
 
+h1 {
+  font-weight: bold;
+  font-size: 50px;
+}
+
 #sidebar {
   position: absolute;
   background-color: #8FBC8E;
   /*float: left;*/
   width: 500px;
-  }
+}
 
 #sidebarContent {
   height: 100%;
